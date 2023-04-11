@@ -1,0 +1,9 @@
+.text{
+    background-color: lightcoral;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
