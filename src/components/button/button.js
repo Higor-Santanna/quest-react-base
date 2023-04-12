@@ -1,9 +1,13 @@
 import "./button.css"
 
-const Button = ({children, label, alertLabel}) => {
+function alertLabel(label){
+    alert("A label desse botão é " + label)
+}
+
+const Button = (props) => {
     return(
-        <div className = "button" onClick={() => alertLabel(label)}>   
-            {children}
+        <div className = "button">
+            <button onClick={() => alertLabel(props.label)}>Botões label</button>
         </div>
     )
 }
